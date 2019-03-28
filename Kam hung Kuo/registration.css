@@ -2,49 +2,61 @@ body {
   background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png);
   padding-top: 100px;
 }
+
 form {
-  background:  #e6ffe6;
-  border: 20px solid  #e6fff2 ;
+  background: #e6ffe6;
+  border: 20px solid #e6fff2;
   max-width: 700px;
-  width: 700px;
-  height: 450px;
+  width: 450px;
+  height: 600px;
   margin: auto;
   opacity: 0.8;
   border-radius: 10px;
 }
- input{
+
+.box {
   width: 200px;
-  height: 30px;
-  font-size: 25px;
-  border-radius: 5px;
+  height: 20px;
+  font-size: 10px;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: #e6ffe6;
+}
+
+.gender{
+  width: 200px;
 }
 
 select {
- width: 100px;
- height: 40px;
- font-size: 25px;
- border-radius: 5px;
+  width: 70px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 5px;
 }
 
 h1 {
   color: #7c795d;
-  font-family: 'Trocchi', serif; font-size: 45px;
-  font-weight: normal; line-height: 48px;
+  font-family: 'Trocchi', serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
   margin: 0;
   text-align: center;
 }
 
-
 label {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-button{
-  font-size: 25px;
-  background-color: #df41f4;
+button {
+  background-color: #4CAF50;
+  border: none;
   color: white;
-  border-radius: 5px;
-  border: 20px;
-  margin-left: 10%;
-  margin-top: 20px;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-left: 20%;
 }
