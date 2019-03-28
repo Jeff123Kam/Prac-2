@@ -1,0 +1,36 @@
+body {
+  background-color: indigo;
+  background-size: cover;
+}
+
+.logo img{
+  height: 190px;
+  width: 150px;
+  margin-left: 221px;
+  margin-top: -50px;
+}
+
+.content {
+  font-family: Times New Roman;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  width: 400px;
+  height: 700px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 600px;
+  border-radius: 3px;
+}
+
+.title{
+  font-size: 25px;
+  margin-top: -90px;
+  margin-left: 80px;
+}
+
+.submit{
+  margin-top: 20px;
+  margin-left: 125px;
+}
