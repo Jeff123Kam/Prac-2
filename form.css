@@ -40,6 +40,27 @@ body {
 }
 
 .item_button{
-  margin-left: 110px;
-  margin-top: 15px;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom: 20px;
+  width: 70%;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  background-color: #ff4d4d;
+  -webkit-box-shadow: 0 2px 7px  #211545;
+  box-shadow: 0 2px 7px #211545;
+  font-weight: 700;
+  outline: 0;
+  cursor: pointer;
+}
+
+label{
+  color: red;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
 }
