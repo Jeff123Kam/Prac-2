@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 1
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -15,111 +15,159 @@
     <h1>Registration form</h1>
     <p class="require"> <em>required field are followed by *</em></p>
 
-    <section>
+    <section class="content">
       <p>
         <label for="firstname">
           <span>First Name:*</span>
         </label>
-        <input name="firstname" id="firstname" type="text" placeholder="Kam hung" required>
-        <label for="lastname">
-          <span>Last Name:*</span>
-        </label>
-        <input name="lastname" id="lastname" type="text" placeholder="Kuo" required>
+        <input class="box" name="firstname" id="firstname" type="text" placeholder="Kam hung" required>
+        <div>
+          <label for="lastname">
+            <span>Last Name:*</span>
+          </label>
+          <input class="box" name="lastname" id="lastname" type="text" placeholder="Kuo" required>
       </p>
       <p>
-        <label for="address">
-          <span>Address:*</span>
-        </label>
-        <input name="address" id="address" type="text" placeholder="unit/street" required>
+        <fieldset class="gender">
+          <legend>Title</legend>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="title" value="M">
+                Mr's
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="title" value="MS">
+                MISS
+                </lable>
+            </li>
+          </ul>
+        </fieldset>
         <p>
-          <label for="Email">
-            <span>Email:*<span>
-                <label>
-                  <input name="Email" id="Email" type="email" placeholder="XXX@gmail.com" required>
-        </p>
-        <p>
-          <label for="telephone">
-            <span>telephone:*<span>
+          <label for="address">
+            <span>Address:*</span>
           </label>
-          <input name="telephone" id="telephone" type="tel" placeholder="04xxxxxxxx" required>
-        </p>
-        <p>
-          <label>
-            <span>Birthday:*</span>
-            <select required>
-              <option disabled selected>month</option>
-              <option>Jan</option>
-              <option>Feb</option>
-              <option>Mar</option>
-              <option>april</option>
-              <option>May</option>
-              <option>June</option>
-              <option>July</option>
-              <option>Aug</option>
-              <option>Sep</option>
-              <option>Oct</option>
-              <option>Nov</option>
-              <option>Dec</option>
-            </select>
-            <select required>
-              <option disabled selected>day</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-              <option>10</option>
-              <option>11</option>
-              <option>12</option>
-              <option>13</option>
-              <option>14</option>
-              <option>15</option>
-              <option>16</option>
-              <option>17</option>
-              <option>18</option>
-              <option>19</option>
-              <option>20</option>
-              <option>21</option>
-              <option>22</option>
-              <option>23</option>
-              <option>24</option>
-              <option>25</option>
-              <option>26</option>
-              <option>27</option>
-              <option>28</option>
-              <option>29</option>
-              <option>30</option>
-              <option>31</option>
-            </select>
-            <select required>
-              <option disabled selected>year</option>
-              <option>2000</option>
-              <option>1999</option>
-              <option>1998</option>
-              <option>1997</option>
-              <option>1996</option>
-              <option>1995</option>
-              <option>1994</option>
-              <option>1993</option>
-              <option>1992</option>
-              <option>1991</option>
-              <option>1990</option>
-              <option>1989</option>
-              <option>1988</option>
-              <option>1987</option>
-              <option>1986</option>
-              <option>1985</option>
-              <option>1984</option>
-              <option>1983</option>
-              <option>1982</option>
-              <option>1981</option>
-              <option>1980</option>
-            </select>
-          </label>
+          <input class="box" name="address" id="address" type="text" placeholder="address line" required>
+          <div>
+            <label for="state">
+              <span>state:*</span>
+              <label>
+                <select required>
+                  <option disabled selected>state</option>
+                  <option>NT</option>
+                  <option>VIC</option>
+                  <option>NSW</option>
+                  <option>ACT</option>
+                  <option>TAS</option>
+                  <option>SA</option>
+                  <option>WA</option>
+                  <option>QLD</option>
+                </select>
+                <p>
+                  <label for="Email">
+                    <span>Email:*<span>
+                        <label>
+                          <input class="box" name="Email" id="Email" type="email" placeholder="XXX@gmail.com" required>
+                </p>
+                <p>
+                  <label for="telephone">
+                    <span>telephone:*<span>
+                  </label>
+                  <input class="box" name="telephone" id="telephone" type="tel" placeholder="04xxxxxxxx" required>
+                </p>
+                <p>
+                  <label>
+                    <span>Birthday:*</span>
+                    <select required>
+                      <option disabled selected>month</option>
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mar</option>
+                      <option>april</option>
+                      <option>May</option>
+                      <option>June</option>
+                      <option>July</option>
+                      <option>Aug</option>
+                      <option>Sep</option>
+                      <option>Oct</option>
+                      <option>Nov</option>
+                      <option>Dec</option>
+                    </select>
+                    <select required>
+                      <option disabled selected>day</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                      <option>20</option>
+                      <option>21</option>
+                      <option>22</option>
+                      <option>23</option>
+                      <option>24</option>
+                      <option>25</option>
+                      <option>26</option>
+                      <option>27</option>
+                      <option>28</option>
+                      <option>29</option>
+                      <option>30</option>
+                      <option>31</option>
+                    </select>
+                    <select required>
+                      <option disabled selected>year</option>
+                      <option>2000</option>
+                      <option>1999</option>
+                      <option>1998</option>
+                      <option>1997</option>
+                      <option>1996</option>
+                      <option>1995</option>
+                      <option>1994</option>
+                      <option>1993</option>
+                      <option>1992</option>
+                      <option>1991</option>
+                      <option>1990</option>
+                      <option>1989</option>
+                      <option>1988</option>
+                      <option>1987</option>
+                      <option>1986</option>
+                      <option>1985</option>
+                      <option>1984</option>
+                      <option>1983</option>
+                      <option>1982</option>
+                      <option>1981</option>
+                      <option>1980</option>
+                      <option>1979</option>
+                      <option>1978</option>
+                      <option>1977</option>
+                      <option>1976</option>
+                      <option>1975</option>
+                      <option>1974</option>
+                      <option>1973</option>
+                      <option>1972</option>
+                      <option>1971</option>
+                      <option>1970</option>
+                      <option>1969</option>
+                      <option>1968</option>
+                      <option>1967</option>
+                      <option>1966</option>
+                    </select>
+                  </label>
 
     </section>
     <p> <button type="submit">submit your form</button> </p>
